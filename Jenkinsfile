@@ -1,6 +1,6 @@
 parameters {
   choice choices: ['Plan', 'Apply', 'Destroy', 'State', 'import'], description: 'Select Terraform Action', name: 'choice'
-  choice choices: ['Dev', 'Sbx', 'terraform'], description: 'Select Environment', name: 'Environment'
+  string  description: 'Select Environment', name: 'ENVIRONMENT'
   string description: 'Type the Argument', name: 'Arguments'
 }
 
